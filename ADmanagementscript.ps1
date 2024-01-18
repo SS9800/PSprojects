@@ -16,7 +16,7 @@ do {write-host -ForegroundColor Cyan "What would you like to do? Please enter a 
  #if the user input equals 1, write which option they chose
  if ($userinput -eq 1) {write-host -foregroundcolor Yellow "You chose to create a new user."
   new-ADuser -path DC=OLMC,DC=org OU=Staff}
-#if user input equals 2, offboard specified user
+#if user input equals 2, offboard specified user by disabling their account
 elseif ($userInput -eq 2) {write-host -ForegroundColor Yellow "you chose to offboard an active user."
 $accountname = read-host "what is the username of the account to be disabled?"
 Disable-ADAccount -Identity $accountname
