@@ -8,4 +8,4 @@ I made this script to automate the most repetitive tasks I've personally seen wh
 3. reset user's password-This will reset the users password to one specified via user input.
 
 2.**Utilization script**
-This script reports multiple different system utilization rates, including CPU,RAM,HDD and GPU. It reports each value in 5 second intervals, repeatedly until the script is stopped. 
+This script reports multiple different system utilization rates, including CPU,RAM,HDD and GPU. It reports each value in 5 second intervals, repeatedly, until the script is stopped. 
