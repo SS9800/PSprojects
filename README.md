@@ -9,3 +9,9 @@ I made this script to automate the most repetitive tasks I've personally seen wh
 
 2.**Utilization script**
 This script reports multiple different system utilization rates, including CPU,RAM,HDD and GPU. It reports each value in 5 second intervals, repeatedly, until the script is stopped. 
+
+3.**Remote computer info script**
+This script connects to a remote host via hostname, and prompts the user on what info they would like to see. It starts  by displaying the current date along with the current uptime.They are then given 3 options:
+1:network information-This will run  Get-NetIPConfiguration -All  on the remote machine, showing the current IP configs. 
+2:Current services-=this gives the user the option to see all running, stopped, or all services on the remote host.
+3:Event logs-This gives the user event logs from the past 24 hours, including system, security and Application logs.
