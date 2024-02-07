@@ -18,3 +18,8 @@ This script connects to a remote host via hostname, and prompts the user on what
 2.Current services-=this gives the user the option to see all running, stopped, or all services on the remote host.
 
 3.Event logs-This gives the user event logs from the past 24 hours, including system, security and Application logs.
+
+**Server Hardening scripts**
+This is a collection of small scripts that will be used for server security hardening when deploying a new windows server instance. the collection of scripts completes the following:
+1. Creates RDP group, enabling members of this group to RDP to the machine and denying ones who aren't.
+2. Enables windows firewall. 
