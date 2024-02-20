@@ -23,3 +23,15 @@ This script connects to a remote host via hostname, and prompts the user on what
 This is a collection of small scripts that will be used for server security hardening when deploying a new windows server instance. the collection of scripts completes the following:
 1. Creates RDP group, enabling members of this group to RDP to the machine and denying ones who aren't.
 2. Enables windows firewall. 
+3.Disabled USB media by modifying the registry key
+4.change the date/time to the correct date
+5.Enable Powershell logging, logging any powershell commands sent through to the server.
+5.automated windows updates, to ease the process of keeping the machine up to date.
+
+Apps:
+I've also created some scripts to automate installation of the following apps to the server:
+1.Git
+2.Visual studio code
+3.Chrome
+4.MobaXterm
+5.Notepad++
